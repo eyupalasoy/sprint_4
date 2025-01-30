@@ -7,6 +7,7 @@ st.header('Market of Used Vehicles in the US')
 st.write('Filter the data by selecting the columns you want to see.')
 model_choice=df['model'].unique()
 make_choice_man=st.selectbox('Select Model:',model_choice)
+df["price"] = pd.to_numeric(df["price"], errors="coerce").astype("Int64")
 min_year,max_year=int(df['model_year'].min()),int(df['model_year'].max())
 year_range=st.slider("Choose Years",
                      value=(min_year,max_year),min_value=min_year,max_value=max_year)
