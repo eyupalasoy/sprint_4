@@ -1,7 +1,8 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-df=pd.read_csv('/Users/eyupalasoy/Desktop/sprint_4/sprint_4/vehicles_us.csv')
+
+df=pd.read_csv('vehicles_us.csv')
 st.header('Market of Used Vehicles in the US')
 st.write('Filter the data by selecting the columns you want to see.')
 model_choice=df['model'].unique()
