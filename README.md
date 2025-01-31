@@ -1,7 +1,7 @@
 # Car Listings Data Analysis & Web App
 
 ## Project Description
-This project analyzes a dataset of car listings to extract meaningful insights through Exploratory Data Analysis (EDA) and visualizations. The findings are then utilized to build a web application that helps users explore car market trends interactively.
+This project analyzes a dataset of car listings to extract meaningful insights through Exploratory Data Analysis (EDA) and visualizations. The findings are then utilized to build a web application that helps users explore car market trends interactively..
 
 ## Running the App Locally
 To run the web application locally, follow these steps:
